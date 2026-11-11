@@ -1,0 +1,28 @@
+{
+  "status": "FAILED",
+  "error": "API request timed out; it was not automatically replayed",
+  "provenance": "live_jira",
+  "elapsed_seconds": 120.219,
+  "provider_error": null,
+  "model": "gemini-3.8-flash",
+  "provider": "gemini",
+  "actual_models": [],
+  "response_ids": [],
+  "usage": {
+    "total_tokens": 0
+  },
+  "tool_calls": 0,
+  "model_requests": 1,
+  "sessions": [],
+  "usage_complete": false,
+  "usage_note": "Only provider-returned usage is summed; unavailable requests may have incurred charges.",
+  "jira_http_requests": 0,
+  "trace_sha256": "e0d4afa5cdede3311b43809de1748558665873fecc87f3b0742b4e3daa074815",
+  "limits": {
+    "max_tool_calls": 180,
+    "max_seconds": 1800,
+    "max_tokens": 1000000,
+    "max_requirement_turns": 12,
+    "requirement_seconds": 120
+  }
+}

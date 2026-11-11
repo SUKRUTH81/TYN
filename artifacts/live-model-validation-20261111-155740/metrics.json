@@ -1,0 +1,95 @@
+{
+  "status": "PARTIAL",
+  "error": null,
+  "provenance": "live_gemini_offline_jira",
+  "elapsed_seconds": 177.89,
+  "model": "gemini-3.8-flash",
+  "provider": "gemini",
+  "actual_models": [
+    "gemini-3.8-flash"
+  ],
+  "response_ids": [],
+  "usage": {
+    "total_tokens": 98968,
+    "input_tokens": 96210,
+    "output_tokens": 601,
+    "reasoning_tokens": 2157,
+    "cached_input_tokens": 46839,
+    "tool_use_input_tokens": 0
+  },
+  "tool_calls": 21,
+  "model_requests": 33,
+  "model_calls": 21,
+  "sessions": [
+    {
+      "source_id": "REQ-01",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 14.64
+    },
+    {
+      "source_id": "REQ-02",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 17.563
+    },
+    {
+      "source_id": "REQ-03",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.453
+    },
+    {
+      "source_id": "REQ-04",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.547
+    },
+    {
+      "source_id": "REQ-05",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.547
+    },
+    {
+      "source_id": "REQ-06",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.64
+    },
+    {
+      "source_id": "REQ-07",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 96.625
+    },
+    {
+      "source_id": "REQ-08",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.704
+    },
+    {
+      "source_id": "REQ-09",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 22.796
+    },
+    {
+      "source_id": "REQ-10",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 1.016
+    },
+    {
+      "source_id": "REQ-11",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.563
+    },
+    {
+      "source_id": "REQ-12",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.75
+    }
+  ],
+  "usage_complete": false,
+  "jira_http_requests": null,
+  "trace_sha256": "58ed9d17c4237b2002118fc3e7f32aa9b43f218a54569d87d0eb4969c8a649ab",
+  "limits": {
+    "max_tool_calls": 120,
+    "max_seconds": 480,
+    "max_tokens": 350000,
+    "max_requirement_turns": 12,
+    "requirement_seconds": 120
+  }
+}

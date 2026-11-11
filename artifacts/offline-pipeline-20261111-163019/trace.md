@@ -1,0 +1,114 @@
+# Investigation trace index
+
+Full arguments, results and provider responses are in trace.jsonl.
+
+- discovery: model scripted-test-double / completed / usage {}
+- discovery: tool discover; result index returned; elapsed 0.016s
+- discovery: model scripted-test-double / completed / usage {}
+- discovery: tool read_issue; result None; elapsed 0.032s
+- discovery: model scripted-test-double / completed / usage {}
+- discovery: tool declare_requirements; result True; elapsed 0.032s
+- REQ-01: model scripted-test-double / completed / usage {}
+- REQ-01: tool read_issue; result None; elapsed 0.032s
+- REQ-01: model scripted-test-double / completed / usage {}
+- REQ-01: tool get_linked_issues; result None; elapsed 0.032s
+- REQ-01: model scripted-test-double / completed / usage {}
+- REQ-01: tool verify_evidence_scope; result None; elapsed 0.047s
+- REQ-01: model scripted-test-double / completed / usage {}
+- REQ-01: tool submit_decision; result PASS; elapsed 0.047s
+- REQ-02: model scripted-test-double / completed / usage {}
+- REQ-02: tool read_issue; result None; elapsed 0.047s
+- REQ-02: model scripted-test-double / completed / usage {}
+- REQ-02: tool get_linked_issues; result None; elapsed 0.047s
+- REQ-02: model scripted-test-double / completed / usage {}
+- REQ-02: tool verify_evidence_scope; result None; elapsed 0.063s
+- REQ-02: model scripted-test-double / completed / usage {}
+- REQ-02: tool submit_decision; result FAIL; elapsed 0.063s
+- REQ-03: model scripted-test-double / completed / usage {}
+- REQ-03: tool read_issue; result None; elapsed 0.063s
+- REQ-03: model scripted-test-double / completed / usage {}
+- REQ-03: tool get_linked_issues; result None; elapsed 0.063s
+- REQ-03: model scripted-test-double / completed / usage {}
+- REQ-03: tool verify_evidence_scope; result None; elapsed 0.078s
+- REQ-03: model scripted-test-double / completed / usage {}
+- REQ-03: tool verify_evidence_scope; result None; elapsed 0.078s
+- REQ-03: model scripted-test-double / completed / usage {}
+- REQ-03: tool submit_decision; result INSUFFICIENT_EVIDENCE; elapsed 0.078s
+- REQ-04: model scripted-test-double / completed / usage {}
+- REQ-04: tool read_issue; result None; elapsed 0.094s
+- REQ-04: model scripted-test-double / completed / usage {}
+- REQ-04: tool get_linked_issues; result None; elapsed 0.094s
+- REQ-04: model scripted-test-double / completed / usage {}
+- REQ-04: tool verify_evidence_scope; result None; elapsed 0.094s
+- REQ-04: model scripted-test-double / completed / usage {}
+- REQ-04: tool submit_decision; result PASS; elapsed 0.094s
+- REQ-05: model scripted-test-double / completed / usage {}
+- REQ-05: tool read_issue; result None; elapsed 0.11s
+- REQ-05: model scripted-test-double / completed / usage {}
+- REQ-05: tool get_linked_issues; result None; elapsed 0.11s
+- REQ-05: model scripted-test-double / completed / usage {}
+- REQ-05: tool verify_evidence_scope; result None; elapsed 0.11s
+- REQ-05: model scripted-test-double / completed / usage {}
+- REQ-05: tool submit_decision; result FAIL; elapsed 0.125s
+- REQ-06: model scripted-test-double / completed / usage {}
+- REQ-06: tool read_issue; result None; elapsed 0.125s
+- REQ-06: model scripted-test-double / completed / usage {}
+- REQ-06: tool get_linked_issues; result None; elapsed 0.125s
+- REQ-06: model scripted-test-double / completed / usage {}
+- REQ-06: tool verify_evidence_scope; result None; elapsed 0.125s
+- REQ-06: model scripted-test-double / completed / usage {}
+- REQ-06: tool verify_evidence_scope; result None; elapsed 0.125s
+- REQ-06: model scripted-test-double / completed / usage {}
+- REQ-06: tool submit_decision; result INSUFFICIENT_EVIDENCE; elapsed 0.125s
+- REQ-07: model scripted-test-double / completed / usage {}
+- REQ-07: tool read_issue; result None; elapsed 0.141s
+- REQ-07: model scripted-test-double / completed / usage {}
+- REQ-07: tool get_linked_issues; result None; elapsed 0.141s
+- REQ-07: model scripted-test-double / completed / usage {}
+- REQ-07: tool verify_evidence_scope; result None; elapsed 0.141s
+- REQ-07: model scripted-test-double / completed / usage {}
+- REQ-07: tool submit_decision; result PASS; elapsed 0.141s
+- REQ-08: model scripted-test-double / completed / usage {}
+- REQ-08: tool read_issue; result None; elapsed 0.141s
+- REQ-08: model scripted-test-double / completed / usage {}
+- REQ-08: tool get_linked_issues; result None; elapsed 0.157s
+- REQ-08: model scripted-test-double / completed / usage {}
+- REQ-08: tool verify_evidence_scope; result None; elapsed 0.157s
+- REQ-08: model scripted-test-double / completed / usage {}
+- REQ-08: tool submit_decision; result FAIL; elapsed 0.172s
+- REQ-09: model scripted-test-double / completed / usage {}
+- REQ-09: tool read_issue; result None; elapsed 0.172s
+- REQ-09: model scripted-test-double / completed / usage {}
+- REQ-09: tool get_linked_issues; result None; elapsed 0.172s
+- REQ-09: model scripted-test-double / completed / usage {}
+- REQ-09: tool verify_evidence_scope; result None; elapsed 0.172s
+- REQ-09: model scripted-test-double / completed / usage {}
+- REQ-09: tool verify_evidence_scope; result None; elapsed 0.172s
+- REQ-09: model scripted-test-double / completed / usage {}
+- REQ-09: tool submit_decision; result INSUFFICIENT_EVIDENCE; elapsed 0.172s
+- REQ-10: model scripted-test-double / completed / usage {}
+- REQ-10: tool read_issue; result None; elapsed 0.188s
+- REQ-10: model scripted-test-double / completed / usage {}
+- REQ-10: tool get_linked_issues; result None; elapsed 0.188s
+- REQ-10: model scripted-test-double / completed / usage {}
+- REQ-10: tool verify_evidence_scope; result None; elapsed 0.188s
+- REQ-10: model scripted-test-double / completed / usage {}
+- REQ-10: tool submit_decision; result PASS; elapsed 0.188s
+- REQ-11: model scripted-test-double / completed / usage {}
+- REQ-11: tool read_issue; result None; elapsed 0.203s
+- REQ-11: model scripted-test-double / completed / usage {}
+- REQ-11: tool get_linked_issues; result None; elapsed 0.203s
+- REQ-11: model scripted-test-double / completed / usage {}
+- REQ-11: tool verify_evidence_scope; result None; elapsed 0.203s
+- REQ-11: model scripted-test-double / completed / usage {}
+- REQ-11: tool verify_evidence_scope; result None; elapsed 0.203s
+- REQ-11: model scripted-test-double / completed / usage {}
+- REQ-11: tool submit_decision; result INSUFFICIENT_EVIDENCE; elapsed 0.203s
+- REQ-12: model scripted-test-double / completed / usage {}
+- REQ-12: tool read_issue; result None; elapsed 0.219s
+- REQ-12: model scripted-test-double / completed / usage {}
+- REQ-12: tool get_linked_issues; result None; elapsed 0.219s
+- REQ-12: model scripted-test-double / completed / usage {}
+- REQ-12: tool verify_evidence_scope; result None; elapsed 0.235s
+- REQ-12: model scripted-test-double / completed / usage {}
+- REQ-12: tool submit_decision; result FAIL; elapsed 0.235s

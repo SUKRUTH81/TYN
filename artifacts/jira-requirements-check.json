@@ -1,0 +1,138 @@
+{
+  "project": "TYN",
+  "scope": "tyn-release-assessment-v2",
+  "manifest_key": "TYN-360",
+  "requirement_count": 12,
+  "exact_manifest_coverage": true,
+  "requirements": [
+    {
+      "source_id": "REQ-01",
+      "jira_key": "TYN-89",
+      "summary": "[REQ-01] Automated regression tests",
+      "url": "https://tyn-ai-assessment.atlassian.net/browse/TYN-89",
+      "declared_evidence_sources": [
+        "REC-2081",
+        "REC-2299"
+      ],
+      "all_declared_links_present": true
+    },
+    {
+      "source_id": "REQ-02",
+      "jira_key": "TYN-263",
+      "summary": "[REQ-02] Customer document isolation",
+      "url": "https://tyn-ai-assessment.atlassian.net/browse/TYN-263",
+      "declared_evidence_sources": [
+        "REC-5825",
+        "REC-1001"
+      ],
+      "all_declared_links_present": true
+    },
+    {
+      "source_id": "REQ-03",
+      "jira_key": "TYN-225",
+      "summary": "[REQ-03] Answer quality for deployed prompt",
+      "url": "https://tyn-ai-assessment.atlassian.net/browse/TYN-225",
+      "declared_evidence_sources": [
+        "REC-1600",
+        "REC-4323"
+      ],
+      "all_declared_links_present": true
+    },
+    {
+      "source_id": "REQ-04",
+      "jira_key": "TYN-53",
+      "summary": "[REQ-04] Response latency",
+      "url": "https://tyn-ai-assessment.atlassian.net/browse/TYN-53",
+      "declared_evidence_sources": [
+        "REC-6024",
+        "REC-1028"
+      ],
+      "all_declared_links_present": true
+    },
+    {
+      "source_id": "REQ-05",
+      "jira_key": "TYN-352",
+      "summary": "[REQ-05] Model usage cost",
+      "url": "https://tyn-ai-assessment.atlassian.net/browse/TYN-352",
+      "declared_evidence_sources": [
+        "REC-5716",
+        "REC-7454"
+      ],
+      "all_declared_links_present": true
+    },
+    {
+      "source_id": "REQ-06",
+      "jira_key": "TYN-70",
+      "summary": "[REQ-06] Production security approval",
+      "url": "https://tyn-ai-assessment.atlassian.net/browse/TYN-70",
+      "declared_evidence_sources": [
+        "REC-2828",
+        "REC-8074"
+      ],
+      "all_declared_links_present": true
+    },
+    {
+      "source_id": "REQ-07",
+      "jira_key": "TYN-329",
+      "summary": "[REQ-07] Sensitive log redaction",
+      "url": "https://tyn-ai-assessment.atlassian.net/browse/TYN-329",
+      "declared_evidence_sources": [
+        "REC-9745",
+        "REC-6499"
+      ],
+      "all_declared_links_present": true
+    },
+    {
+      "source_id": "REQ-08",
+      "jira_key": "TYN-47",
+      "summary": "[REQ-08] Human handoff delivery",
+      "url": "https://tyn-ai-assessment.atlassian.net/browse/TYN-47",
+      "declared_evidence_sources": [
+        "REC-4076"
+      ],
+      "all_declared_links_present": true
+    },
+    {
+      "source_id": "REQ-09",
+      "jira_key": "TYN-143",
+      "summary": "[REQ-09] Rollback rehearsal",
+      "url": "https://tyn-ai-assessment.atlassian.net/browse/TYN-143",
+      "declared_evidence_sources": [
+        "REC-6198",
+        "REC-6011"
+      ],
+      "all_declared_links_present": true
+    },
+    {
+      "source_id": "REQ-10",
+      "jira_key": "TYN-57",
+      "summary": "[REQ-10] Document parsing completeness",
+      "url": "https://tyn-ai-assessment.atlassian.net/browse/TYN-57",
+      "declared_evidence_sources": [
+        "REC-9611"
+      ],
+      "all_declared_links_present": true
+    },
+    {
+      "source_id": "REQ-11",
+      "jira_key": "TYN-162",
+      "summary": "[REQ-11] Accessible keyboard handoff",
+      "url": "https://tyn-ai-assessment.atlassian.net/browse/TYN-162",
+      "declared_evidence_sources": [
+        "REC-8515",
+        "REC-8801"
+      ],
+      "all_declared_links_present": true
+    },
+    {
+      "source_id": "REQ-12",
+      "jira_key": "TYN-400",
+      "summary": "[REQ-12] Streaming completion integrity",
+      "url": "https://tyn-ai-assessment.atlassian.net/browse/TYN-400",
+      "declared_evidence_sources": [
+        "REC-5957"
+      ],
+      "all_declared_links_present": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "note": "Development-only expectations independently checked against the supplied fixture. Never imported by the assessment runtime.",
+  "overall_decision": "BLOCKED",
+  "decisions": {
+    "REQ-01": "PASS", "REQ-02": "FAIL", "REQ-03": "INSUFFICIENT_EVIDENCE",
+    "REQ-04": "PASS", "REQ-05": "FAIL", "REQ-06": "INSUFFICIENT_EVIDENCE",
+    "REQ-07": "PASS", "REQ-08": "FAIL", "REQ-09": "INSUFFICIENT_EVIDENCE",
+    "REQ-10": "PASS", "REQ-11": "INSUFFICIENT_EVIDENCE", "REQ-12": "FAIL"
+  }
+}

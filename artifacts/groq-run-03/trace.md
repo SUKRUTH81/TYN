@@ -1,0 +1,47 @@
+# Investigation trace index
+
+Full arguments, results and provider responses are in trace.jsonl.
+
+- discovery: model openai/gpt-oss-120b / completed / usage {"input_tokens": 828, "output_tokens": 46, "total_tokens": 874}
+- discovery: tool discover; result index returned; elapsed 1.688s
+- discovery: model openai/gpt-oss-120b / completed / usage {"input_tokens": 1249, "output_tokens": 66, "total_tokens": 1315}
+- discovery: tool read_issue; result None; elapsed 3.563s
+- discovery: model openai/gpt-oss-120b / completed / usage {"input_tokens": 2193, "output_tokens": 255, "total_tokens": 2448}
+- discovery: tool declare_requirements; result True; elapsed 4.985s
+- REQ-01: model openai/gpt-oss-120b / completed / usage {"input_tokens": 1693, "output_tokens": 75, "total_tokens": 1768}
+- REQ-01: tool read_issue; result Read only discovered or linked scoped issues; elapsed 6.0s
+- REQ-01: model openai/gpt-oss-120b / completed / usage {"input_tokens": 1731, "output_tokens": 179, "total_tokens": 1910}
+- REQ-01: tool read_issue; result None; elapsed 7.86s
+- REQ-01: model openai/gpt-oss-120b / completed / usage {"input_tokens": 2250, "output_tokens": 133, "total_tokens": 2383}
+- REQ-01: tool get_linked_issues; result None; elapsed 19.297s
+- REQ-01: model openai/gpt-oss-120b / completed / usage {"input_tokens": 3302, "output_tokens": 260, "total_tokens": 3562}
+- REQ-01: tool verify_evidence_scope; result None; elapsed 43.672s
+- REQ-01: model openai/gpt-oss-120b / completed / usage {"input_tokens": 3548, "output_tokens": 187, "total_tokens": 3735}
+- REQ-01: tool get_linked_issues; result None; elapsed 64.485s
+- REQ-01: model openai/gpt-oss-120b / completed / usage {"input_tokens": 3671, "output_tokens": 645, "total_tokens": 4316}
+- REQ-01: tool submit_decision; result Expecting ',' delimiter: line 1 column 818 (char 817); elapsed 91.047s
+- REQ-01: model openai/gpt-oss-120b / completed / usage {"input_tokens": 3921, "output_tokens": 727, "total_tokens": 4648}
+- REQ-01: tool submit_decision; result Every decision needs explanation, outstanding action or None, and citations; elapsed 114.953s
+- REQ-01: model openai/gpt-oss-120b / completed / usage {"input_tokens": 4168, "output_tokens": 319, "total_tokens": 4487}
+- REQ-01: tool submit_decision; result PASS; elapsed 149.344s
+- REQ-02: model openai/gpt-oss-120b / completed / usage {"input_tokens": 1693, "output_tokens": 249, "total_tokens": 1942}
+- REQ-02: tool read_issue; result None; elapsed 163.813s
+- REQ-02: model openai/gpt-oss-120b / completed / usage {"input_tokens": 2263, "output_tokens": 67, "total_tokens": 2330}
+- REQ-02: tool read_issue; result None; elapsed 182.625s
+- REQ-02: model openai/gpt-oss-120b / completed / usage {"input_tokens": 2776, "output_tokens": 134, "total_tokens": 2910}
+- REQ-02: tool get_linked_issues; result None; elapsed 196.391s
+- REQ-02: model openai/gpt-oss-120b / completed / usage {"input_tokens": 3835, "output_tokens": 447, "total_tokens": 4282}
+- REQ-02: tool verify_evidence_scope; result None; elapsed 221.141s
+- REQ-02: model openai/gpt-oss-120b / completed / usage {"input_tokens": 4081, "output_tokens": 277, "total_tokens": 4358}
+- REQ-02: tool verify_evidence_scope; result None; elapsed 248.438s
+- REQ-02: requirement_failure; API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2914, Requested 5148. Please try again in 464.999999ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing
+- REQ-03: requirement_failure; Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2914, Requested 5148. Please try again in 464.999999ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing
+- REQ-04: requirement_failure; Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2914, Requested 5148. Please try again in 464.999999ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing
+- REQ-05: requirement_failure; Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2914, Requested 5148. Please try again in 464.999999ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing
+- REQ-06: requirement_failure; Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2914, Requested 5148. Please try again in 464.999999ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing
+- REQ-07: requirement_failure; Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2914, Requested 5148. Please try again in 464.999999ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing
+- REQ-08: requirement_failure; Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2914, Requested 5148. Please try again in 464.999999ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing
+- REQ-09: requirement_failure; Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2914, Requested 5148. Please try again in 464.999999ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing
+- REQ-10: requirement_failure; Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2914, Requested 5148. Please try again in 464.999999ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing
+- REQ-11: requirement_failure; Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2914, Requested 5148. Please try again in 464.999999ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing
+- REQ-12: requirement_failure; Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2914, Requested 5148. Please try again in 464.999999ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing

@@ -1,0 +1,160 @@
+{
+  "schema_version": "2.0",
+  "release": "R2.4",
+  "project": "TYN",
+  "dataset_scope": "tyn-release-assessment-v2",
+  "target": {
+    "release": "R2.4",
+    "commit": "b7a91f2",
+    "prompt": "p7",
+    "environment": "production",
+    "service": "atlas-assistant"
+  },
+  "generated_at": "2026-11-11T13:35:26.412795+00:00",
+  "requirements": [
+    {
+      "source_id": "REQ-01",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: APIError: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6114, Requested 2205. Please try again in 2.3925s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 1.531
+    },
+    {
+      "source_id": "REQ-02",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6114, Requested 2205. Please try again in 2.3925s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-03",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6114, Requested 2205. Please try again in 2.3925s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-04",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6114, Requested 2205. Please try again in 2.3925s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-05",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6114, Requested 2205. Please try again in 2.3925s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-06",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6114, Requested 2205. Please try again in 2.3925s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-07",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6114, Requested 2205. Please try again in 2.3925s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-08",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6114, Requested 2205. Please try again in 2.3925s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-09",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6114, Requested 2205. Please try again in 2.3925s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-10",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6114, Requested 2205. Please try again in 2.3925s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-11",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6114, Requested 2205. Please try again in 2.3925s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-12",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: Provider authentication/quota failure; remaining investigations were not sent: API request failed: HTTP 429; POST /openai/v1/chat/completions; Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6114, Requested 2205. Please try again in 2.3925s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.0
+    }
+  ],
+  "overall_decision": "NEEDS_REVIEW",
+  "assessment_complete": false,
+  "provenance": "live_jira",
+  "requested_model": "groq/openai/gpt-oss-120b",
+  "actual_models": [
+    "openai/gpt-oss-120b"
+  ],
+  "integrity_notes": [
+    {
+      "warning": "Some investigations failed. Overall decision is conditional; never treat this as a completed assessment."
+    }
+  ]
+}

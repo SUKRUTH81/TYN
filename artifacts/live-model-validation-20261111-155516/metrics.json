@@ -1,0 +1,23 @@
+{
+  "status": "FAILED",
+  "error": "Network request failed; verify connectivity and API configuration",
+  "provenance": "live_gemini_offline_jira",
+  "elapsed_seconds": 2.094,
+  "model": "gemini-3.8-flash",
+  "provider": "gemini",
+  "actual_models": [],
+  "response_ids": [],
+  "usage": {
+    "total_tokens": 0
+  },
+  "tool_calls": 0,
+  "sessions": [],
+  "trace_sha256": "1365b3a2a26bd2d8b8b9c8457717c1e7eb48a9986c08ab288f1326afde6669dc",
+  "limits": {
+    "max_tool_calls": 120,
+    "max_seconds": 480,
+    "max_tokens": 350000,
+    "max_requirement_turns": 12,
+    "requirement_seconds": 120
+  }
+}

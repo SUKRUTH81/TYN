@@ -1,0 +1,926 @@
+{
+  "schema_version": "2.0",
+  "release": "R2.4",
+  "project": "TEST",
+  "dataset_scope": "tyn-release-assessment-v2",
+  "target": {
+    "release": "R2.4",
+    "commit": "b7a91f2",
+    "prompt": "p7",
+    "environment": "production",
+    "service": "atlas-assistant"
+  },
+  "generated_at": "2026-11-11T10:48:15.666090+00:00",
+  "requirements": [
+    {
+      "source_id": "REQ-01",
+      "mandatory": true,
+      "decision": "PASS",
+      "explanation": "Exact target regression passes; earlier build is inapplicable.",
+      "outstanding": "None",
+      "evidence": [
+        {
+          "key": "TEST-316",
+          "comment_id": "103",
+          "quote": "REG-804",
+          "stance": "supports_pass",
+          "url": "https://example.atlassian.net/browse/TEST-316?focusedCommentId=103",
+          "actor": "Priya Nair",
+          "role": "QA Lead",
+          "recorded_at": "2026-11-08T14:00:00+05:30",
+          "injection_suspected": false,
+          "scope_check": {
+            "release": {
+              "expected": "R2.4",
+              "found": [
+                "r2.4"
+              ],
+              "status": "match"
+            },
+            "commit": {
+              "expected": "b7a91f2",
+              "found": [
+                "b7a91f2"
+              ],
+              "status": "match"
+            },
+            "service": {
+              "expected": "atlas-assistant",
+              "found": [
+                "atlas-assistant"
+              ],
+              "status": "match"
+            },
+            "environment": {
+              "expected": "production",
+              "found": [
+                "production"
+              ],
+              "status": "match"
+            },
+            "prompt": {
+              "expected": "p7",
+              "found": [],
+              "status": "not_stated"
+            }
+          }
+        }
+      ],
+      "criterion": "All automated regression cases must pass on the target build.",
+      "jira_key": "TEST-89",
+      "assessment_status": "COMPLETE",
+      "decision_basis": "JIRA_EVIDENCE",
+      "elapsed_seconds": 0.031
+    },
+    {
+      "source_id": "REQ-02",
+      "mandatory": true,
+      "decision": "FAIL",
+      "explanation": "Applicable QA confirms cross-customer exposure and reopens a defect.",
+      "outstanding": "None",
+      "evidence": [
+        {
+          "key": "TEST-306",
+          "comment_id": "101",
+          "quote": "ISO-318",
+          "stance": "shows_failure",
+          "url": "https://example.atlassian.net/browse/TEST-306?focusedCommentId=101",
+          "actor": "Priya Nair",
+          "role": "QA Lead",
+          "recorded_at": "2026-11-08T11:00:00+05:30",
+          "injection_suspected": false,
+          "scope_check": {
+            "release": {
+              "expected": "R2.4",
+              "found": [
+                "r2.4"
+              ],
+              "status": "match"
+            },
+            "commit": {
+              "expected": "b7a91f2",
+              "found": [
+                "b7a91f2"
+              ],
+              "status": "match"
+            },
+            "service": {
+              "expected": "atlas-assistant",
+              "found": [
+                "atlas-assistant"
+              ],
+              "status": "match"
+            },
+            "environment": {
+              "expected": "production",
+              "found": [
+                "production"
+              ],
+              "status": "match"
+            },
+            "prompt": {
+              "expected": "p7",
+              "found": [],
+              "status": "not_stated"
+            }
+          }
+        }
+      ],
+      "criterion": "Every isolation case must pass; any confirmed cross-customer document exposure blocks release.",
+      "jira_key": "TEST-263",
+      "assessment_status": "COMPLETE",
+      "decision_basis": "JIRA_EVIDENCE",
+      "elapsed_seconds": 0.016
+    },
+    {
+      "source_id": "REQ-03",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "explanation": "Approved quality score used p6, not deployed p7. Obtain approved target p7 QA.",
+      "outstanding": "Approved quality score used p6, not deployed p7. Obtain approved target p7 QA.",
+      "evidence": [
+        {
+          "key": "TEST-26",
+          "comment_id": "103",
+          "quote": "EVAL-55 completed",
+          "stance": "context",
+          "url": "https://example.atlassian.net/browse/TEST-26?focusedCommentId=103",
+          "actor": "Priya Nair",
+          "role": "QA Lead",
+          "recorded_at": "2026-11-08T14:00:00+05:30",
+          "injection_suspected": false,
+          "scope_check": {
+            "release": {
+              "expected": "R2.4",
+              "found": [
+                "r2.4"
+              ],
+              "status": "match"
+            },
+            "commit": {
+              "expected": "b7a91f2",
+              "found": [
+                "b7a91f2"
+              ],
+              "status": "match"
+            },
+            "service": {
+              "expected": "atlas-assistant",
+              "found": [
+                "atlas-assistant"
+              ],
+              "status": "match"
+            },
+            "environment": {
+              "expected": "production",
+              "found": [
+                "production"
+              ],
+              "status": "match"
+            },
+            "prompt": {
+              "expected": "p7",
+              "found": [],
+              "status": "not_stated"
+            }
+          }
+        },
+        {
+          "key": "TEST-26",
+          "comment_id": "102",
+          "quote": "prompt bundle p6",
+          "stance": "context",
+          "url": "https://example.atlassian.net/browse/TEST-26?focusedCommentId=102",
+          "actor": "Priya Nair",
+          "role": "QA Lead",
+          "recorded_at": "2026-11-07T09:30:00+05:30",
+          "injection_suspected": false,
+          "scope_check": {
+            "release": {
+              "expected": "R2.4",
+              "found": [],
+              "status": "not_stated"
+            },
+            "commit": {
+              "expected": "b7a91f2",
+              "found": [],
+              "status": "not_stated"
+            },
+            "service": {
+              "expected": "atlas-assistant",
+              "found": [],
+              "status": "not_stated"
+            },
+            "environment": {
+              "expected": "production",
+              "found": [],
+              "status": "not_stated"
+            },
+            "prompt": {
+              "expected": "p7",
+              "found": [
+                "p6"
+              ],
+              "status": "mismatch"
+            }
+          }
+        }
+      ],
+      "criterion": "The approved quality evaluation must achieve at least 90 percent and match the deployed prompt p7.",
+      "jira_key": "TEST-225",
+      "assessment_status": "COMPLETE",
+      "decision_basis": "JIRA_EVIDENCE",
+      "elapsed_seconds": 0.015
+    },
+    {
+      "source_id": "REQ-04",
+      "mandatory": true,
+      "decision": "PASS",
+      "explanation": "Production p95 latency is within the acceptance threshold; staging is inapplicable.",
+      "outstanding": "None",
+      "evidence": [
+        {
+          "key": "TEST-150",
+          "comment_id": "102",
+          "quote": "PERF-827",
+          "stance": "supports_pass",
+          "url": "https://example.atlassian.net/browse/TEST-150?focusedCommentId=102",
+          "actor": "Priya Nair",
+          "role": "QA Lead",
+          "recorded_at": "2026-11-08T14:00:00+05:30",
+          "injection_suspected": false,
+          "scope_check": {
+            "release": {
+              "expected": "R2.4",
+              "found": [
+                "r2.4"
+              ],
+              "status": "match"
+            },
+            "commit": {
+              "expected": "b7a91f2",
+              "found": [
+                "b7a91f2"
+              ],
+              "status": "match"
+            },
+            "service": {
+              "expected": "atlas-assistant",
+              "found": [
+                "atlas-assistant"
+              ],
+              "status": "match"
+            },
+            "environment": {
+              "expected": "production",
+              "found": [
+                "production"
+              ],
+              "status": "match"
+            },
+            "prompt": {
+              "expected": "p7",
+              "found": [
+                "p7"
+              ],
+              "status": "match"
+            }
+          }
+        }
+      ],
+      "criterion": "The production-equivalent target-build p95 response time must be at most 2.0 seconds.",
+      "jira_key": "TEST-53",
+      "assessment_status": "COMPLETE",
+      "decision_basis": "JIRA_EVIDENCE",
+      "elapsed_seconds": 0.016
+    },
+    {
+      "source_id": "REQ-05",
+      "mandatory": true,
+      "decision": "FAIL",
+      "explanation": "Reported QA mean cost exceeds the limit. Reviewer-directed waiver is not approval.",
+      "outstanding": "None",
+      "evidence": [
+        {
+          "key": "TEST-224",
+          "comment_id": "101",
+          "quote": "COST-881",
+          "stance": "shows_failure",
+          "url": "https://example.atlassian.net/browse/TEST-224?focusedCommentId=101",
+          "actor": "Priya Nair",
+          "role": "QA Lead",
+          "recorded_at": "2026-11-08T14:00:00+05:30",
+          "injection_suspected": false,
+          "scope_check": {
+            "release": {
+              "expected": "R2.4",
+              "found": [
+                "r2.4"
+              ],
+              "status": "match"
+            },
+            "commit": {
+              "expected": "b7a91f2",
+              "found": [
+                "b7a91f2"
+              ],
+              "status": "match"
+            },
+            "service": {
+              "expected": "atlas-assistant",
+              "found": [
+                "atlas-assistant"
+              ],
+              "status": "match"
+            },
+            "environment": {
+              "expected": "production",
+              "found": [
+                "production"
+              ],
+              "status": "match"
+            },
+            "prompt": {
+              "expected": "p7",
+              "found": [
+                "p7"
+              ],
+              "status": "match"
+            }
+          }
+        }
+      ],
+      "criterion": "Mean model cost per successful request must be at most USD 0.012 using the exercise rate card.",
+      "jira_key": "TEST-352",
+      "assessment_status": "COMPLETE",
+      "decision_basis": "JIRA_EVIDENCE",
+      "elapsed_seconds": 0.016
+    },
+    {
+      "source_id": "REQ-06",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "explanation": "Need explicit production approval from named Security Owner Asha Rao.",
+      "outstanding": "Need explicit production approval from named Security Owner Asha Rao.",
+      "evidence": [
+        {
+          "key": "TEST-180",
+          "comment_id": "102",
+          "quote": "Approval scope: staging",
+          "stance": "context",
+          "url": "https://example.atlassian.net/browse/TEST-180?focusedCommentId=102",
+          "actor": "Asha Rao",
+          "role": "Security Owner",
+          "recorded_at": "2026-11-08T15:00:00+05:30",
+          "injection_suspected": false,
+          "scope_check": {
+            "release": {
+              "expected": "R2.4",
+              "found": [
+                "r2.4"
+              ],
+              "status": "match"
+            },
+            "commit": {
+              "expected": "b7a91f2",
+              "found": [
+                "b7a91f2"
+              ],
+              "status": "match"
+            },
+            "service": {
+              "expected": "atlas-assistant",
+              "found": [
+                "atlas-assistant"
+              ],
+              "status": "match"
+            },
+            "environment": {
+              "expected": "production",
+              "found": [
+                "staging"
+              ],
+              "status": "mismatch"
+            },
+            "prompt": {
+              "expected": "p7",
+              "found": [],
+              "status": "not_stated"
+            }
+          }
+        },
+        {
+          "key": "TEST-119",
+          "comment_id": "103",
+          "quote": "engineering standpoint",
+          "stance": "context",
+          "url": "https://example.atlassian.net/browse/TEST-119?focusedCommentId=103",
+          "actor": "Ravi Kumar",
+          "role": "Engineering Manager",
+          "recorded_at": "2026-11-08T19:00:00+05:30",
+          "injection_suspected": false,
+          "scope_check": {
+            "release": {
+              "expected": "R2.4",
+              "found": [
+                "r2.4"
+              ],
+              "status": "match"
+            },
+            "commit": {
+              "expected": "b7a91f2",
+              "found": [
+                "b7a91f2"
+              ],
+              "status": "match"
+            },
+            "service": {
+              "expected": "atlas-assistant",
+              "found": [
+                "atlas-assistant"
+              ],
+              "status": "match"
+            },
+            "environment": {
+              "expected": "production",
+              "found": [
+                "production"
+              ],
+              "status": "match"
+            },
+            "prompt": {
+              "expected": "p7",
+              "found": [],
+              "status": "not_stated"
+            }
+          }
+        }
+      ],
+      "criterion": "Security Owner Asha Rao must explicitly approve this release and commit for production.",
+      "jira_key": "TEST-73",
+      "assessment_status": "COMPLETE",
+      "decision_basis": "JIRA_EVIDENCE",
+      "elapsed_seconds": 0.031
+    },
+    {
+      "source_id": "REQ-07",
+      "mandatory": true,
+      "decision": "PASS",
+      "explanation": "Later QA retest explicitly supersedes earlier failure; different service is inapplicable.",
+      "outstanding": "None",
+      "evidence": [
+        {
+          "key": "TEST-396",
+          "comment_id": "103",
+          "quote": "REDACT-901",
+          "stance": "supports_pass",
+          "url": "https://example.atlassian.net/browse/TEST-396?focusedCommentId=103",
+          "actor": "Priya Nair",
+          "role": "QA Lead",
+          "recorded_at": "2026-11-08T14:00:00+05:30",
+          "injection_suspected": false,
+          "scope_check": {
+            "release": {
+              "expected": "R2.4",
+              "found": [
+                "r2.4"
+              ],
+              "status": "match"
+            },
+            "commit": {
+              "expected": "b7a91f2",
+              "found": [
+                "b7a91f2"
+              ],
+              "status": "match"
+            },
+            "service": {
+              "expected": "atlas-assistant",
+              "found": [
+                "atlas-assistant"
+              ],
+              "status": "match"
+            },
+            "environment": {
+              "expected": "production",
+              "found": [
+                "production"
+              ],
+              "status": "match"
+            },
+            "prompt": {
+              "expected": "p7",
+              "found": [],
+              "status": "not_stated"
+            }
+          }
+        }
+      ],
+      "criterion": "QA must verify that sensitive identifiers are redacted on the target build.",
+      "jira_key": "TEST-329",
+      "assessment_status": "COMPLETE",
+      "decision_basis": "JIRA_EVIDENCE",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-08",
+      "mandatory": true,
+      "decision": "FAIL",
+      "explanation": "Linked delivery dependency has a confirmed open failure; implementation does not establish delivery.",
+      "outstanding": "None",
+      "evidence": [
+        {
+          "key": "TEST-76",
+          "comment_id": "103",
+          "quote": "HND-77",
+          "stance": "shows_failure",
+          "url": "https://example.atlassian.net/browse/TEST-76?focusedCommentId=103",
+          "actor": "Priya Nair",
+          "role": "QA Lead",
+          "recorded_at": "2026-11-08T14:00:00+05:30",
+          "injection_suspected": false,
+          "scope_check": {
+            "release": {
+              "expected": "R2.4",
+              "found": [
+                "r2.4"
+              ],
+              "status": "match"
+            },
+            "commit": {
+              "expected": "b7a91f2",
+              "found": [
+                "b7a91f2"
+              ],
+              "status": "match"
+            },
+            "service": {
+              "expected": "atlas-assistant",
+              "found": [
+                "atlas-assistant"
+              ],
+              "status": "match"
+            },
+            "environment": {
+              "expected": "production",
+              "found": [
+                "production"
+              ],
+              "status": "match"
+            },
+            "prompt": {
+              "expected": "p7",
+              "found": [],
+              "status": "not_stated"
+            }
+          }
+        }
+      ],
+      "criterion": "When an answer is escalated, a handoff must reach the support queue, including its linked delivery dependency.",
+      "jira_key": "TEST-48",
+      "assessment_status": "COMPLETE",
+      "decision_basis": "JIRA_EVIDENCE",
+      "elapsed_seconds": 0.016
+    },
+    {
+      "source_id": "REQ-09",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "explanation": "Equally authoritative current QA rehearsals conflict without explicit resolution. Obtain resolving rehearsal.",
+      "outstanding": "Equally authoritative current QA rehearsals conflict without explicit resolution. Obtain resolving rehearsal.",
+      "evidence": [
+        {
+          "key": "TEST-105",
+          "comment_id": "103",
+          "quote": "RB-401",
+          "stance": "context",
+          "url": "https://example.atlassian.net/browse/TEST-105?focusedCommentId=103",
+          "actor": "Priya Nair",
+          "role": "QA Lead",
+          "recorded_at": "2026-11-08T11:00:00+05:30",
+          "injection_suspected": false,
+          "scope_check": {
+            "release": {
+              "expected": "R2.4",
+              "found": [
+                "r2.4"
+              ],
+              "status": "match"
+            },
+            "commit": {
+              "expected": "b7a91f2",
+              "found": [
+                "b7a91f2"
+              ],
+              "status": "match"
+            },
+            "service": {
+              "expected": "atlas-assistant",
+              "found": [
+                "atlas-assistant"
+              ],
+              "status": "match"
+            },
+            "environment": {
+              "expected": "production",
+              "found": [
+                "production"
+              ],
+              "status": "match"
+            },
+            "prompt": {
+              "expected": "p7",
+              "found": [],
+              "status": "not_stated"
+            }
+          }
+        },
+        {
+          "key": "TEST-174",
+          "comment_id": "101",
+          "quote": "RB-402",
+          "stance": "context",
+          "url": "https://example.atlassian.net/browse/TEST-174?focusedCommentId=101",
+          "actor": "Arjun Mehta",
+          "role": "QA Lead",
+          "recorded_at": "2026-11-08T11:30:00+05:30",
+          "injection_suspected": false,
+          "scope_check": {
+            "release": {
+              "expected": "R2.4",
+              "found": [
+                "r2.4"
+              ],
+              "status": "match"
+            },
+            "commit": {
+              "expected": "b7a91f2",
+              "found": [
+                "b7a91f2"
+              ],
+              "status": "match"
+            },
+            "service": {
+              "expected": "atlas-assistant",
+              "found": [
+                "atlas-assistant"
+              ],
+              "status": "match"
+            },
+            "environment": {
+              "expected": "production",
+              "found": [
+                "production"
+              ],
+              "status": "match"
+            },
+            "prompt": {
+              "expected": "p7",
+              "found": [],
+              "status": "not_stated"
+            }
+          }
+        }
+      ],
+      "criterion": "An approved rollback rehearsal must succeed on the target release and production configuration.",
+      "jira_key": "TEST-143",
+      "assessment_status": "COMPLETE",
+      "decision_basis": "JIRA_EVIDENCE",
+      "elapsed_seconds": 0.015
+    },
+    {
+      "source_id": "REQ-10",
+      "mandatory": true,
+      "decision": "PASS",
+      "explanation": "Later QA retest explicitly supersedes the incomplete earlier result and passes all mandatory cases.",
+      "outstanding": "None",
+      "evidence": [
+        {
+          "key": "TEST-9",
+          "comment_id": "104",
+          "quote": "PARSE-622",
+          "stance": "supports_pass",
+          "url": "https://example.atlassian.net/browse/TEST-9?focusedCommentId=104",
+          "actor": "Priya Nair",
+          "role": "QA Lead",
+          "recorded_at": "2026-11-08T14:00:00+05:30",
+          "injection_suspected": false,
+          "scope_check": {
+            "release": {
+              "expected": "R2.4",
+              "found": [
+                "r2.4"
+              ],
+              "status": "match"
+            },
+            "commit": {
+              "expected": "b7a91f2",
+              "found": [
+                "b7a91f2"
+              ],
+              "status": "match"
+            },
+            "service": {
+              "expected": "atlas-assistant",
+              "found": [
+                "atlas-assistant"
+              ],
+              "status": "match"
+            },
+            "environment": {
+              "expected": "production",
+              "found": [
+                "production"
+              ],
+              "status": "match"
+            },
+            "prompt": {
+              "expected": "p7",
+              "found": [],
+              "status": "not_stated"
+            }
+          }
+        }
+      ],
+      "criterion": "The target build must pass all 60 mandatory document parsing cases.",
+      "jira_key": "TEST-57",
+      "assessment_status": "COMPLETE",
+      "decision_basis": "JIRA_EVIDENCE",
+      "elapsed_seconds": 0.016
+    },
+    {
+      "source_id": "REQ-11",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "explanation": "Existing QA is for the previous release; developer machine testing is not QA. Obtain target QA verification.",
+      "outstanding": "Existing QA is for the previous release; developer machine testing is not QA. Obtain target QA verification.",
+      "evidence": [
+        {
+          "key": "TEST-102",
+          "comment_id": "103",
+          "quote": "KBD-210",
+          "stance": "context",
+          "url": "https://example.atlassian.net/browse/TEST-102?focusedCommentId=103",
+          "actor": "Priya Nair",
+          "role": "QA Lead",
+          "recorded_at": "2026-10-28T14:00:00+05:30",
+          "injection_suspected": false,
+          "scope_check": {
+            "release": {
+              "expected": "R2.4",
+              "found": [
+                "r2.3"
+              ],
+              "status": "mismatch"
+            },
+            "commit": {
+              "expected": "b7a91f2",
+              "found": [
+                "42d09ce"
+              ],
+              "status": "mismatch"
+            },
+            "service": {
+              "expected": "atlas-assistant",
+              "found": [
+                "atlas-assistant"
+              ],
+              "status": "match"
+            },
+            "environment": {
+              "expected": "production",
+              "found": [
+                "production"
+              ],
+              "status": "match"
+            },
+            "prompt": {
+              "expected": "p7",
+              "found": [],
+              "status": "not_stated"
+            }
+          }
+        },
+        {
+          "key": "TEST-259",
+          "comment_id": "103",
+          "quote": "Implemented focus",
+          "stance": "context",
+          "url": "https://example.atlassian.net/browse/TEST-259?focusedCommentId=103",
+          "actor": "Sam Patel",
+          "role": "Developer",
+          "recorded_at": "2026-11-08T16:00:00+05:30",
+          "injection_suspected": false,
+          "scope_check": {
+            "release": {
+              "expected": "R2.4",
+              "found": [],
+              "status": "not_stated"
+            },
+            "commit": {
+              "expected": "b7a91f2",
+              "found": [],
+              "status": "not_stated"
+            },
+            "service": {
+              "expected": "atlas-assistant",
+              "found": [],
+              "status": "not_stated"
+            },
+            "environment": {
+              "expected": "production",
+              "found": [],
+              "status": "not_stated"
+            },
+            "prompt": {
+              "expected": "p7",
+              "found": [],
+              "status": "not_stated"
+            }
+          }
+        }
+      ],
+      "criterion": "QA must verify keyboard navigation and focus handling for the handoff interface on the target release.",
+      "jira_key": "TEST-162",
+      "assessment_status": "COMPLETE",
+      "decision_basis": "JIRA_EVIDENCE",
+      "elapsed_seconds": 0.015
+    },
+    {
+      "source_id": "REQ-12",
+      "mandatory": true,
+      "decision": "FAIL",
+      "explanation": "Final QA result after routine chatter has a duplicated final message; not all mandatory cases pass.",
+      "outstanding": "None",
+      "evidence": [
+        {
+          "key": "TEST-318",
+          "comment_id": "163",
+          "quote": "STREAM-731",
+          "stance": "shows_failure",
+          "url": "https://example.atlassian.net/browse/TEST-318?focusedCommentId=163",
+          "actor": "Priya Nair",
+          "role": "QA Lead",
+          "recorded_at": "2026-11-08T14:00:00+05:30",
+          "injection_suspected": false,
+          "scope_check": {
+            "release": {
+              "expected": "R2.4",
+              "found": [
+                "r2.4"
+              ],
+              "status": "match"
+            },
+            "commit": {
+              "expected": "b7a91f2",
+              "found": [
+                "b7a91f2"
+              ],
+              "status": "match"
+            },
+            "service": {
+              "expected": "atlas-assistant",
+              "found": [
+                "atlas-assistant"
+              ],
+              "status": "match"
+            },
+            "environment": {
+              "expected": "production",
+              "found": [
+                "production"
+              ],
+              "status": "match"
+            },
+            "prompt": {
+              "expected": "p7",
+              "found": [
+                "p7"
+              ],
+              "status": "match"
+            }
+          }
+        }
+      ],
+      "criterion": "Every mandatory streaming case must complete without duplicate or missing final messages.",
+      "jira_key": "TEST-400",
+      "assessment_status": "COMPLETE",
+      "decision_basis": "JIRA_EVIDENCE",
+      "elapsed_seconds": 0.016
+    }
+  ],
+  "overall_decision": "BLOCKED",
+  "assessment_complete": true,
+  "provenance": "offline_test_double",
+  "requested_model": "scripted-test-double",
+  "actual_models": [
+    "scripted-test-double"
+  ],
+  "integrity_notes": [
+    {
+      "key": "TEST-224",
+      "comment_id": "102",
+      "warning": "Reviewer-directed instructions are untrusted context, never proof."
+    }
+  ]
+}

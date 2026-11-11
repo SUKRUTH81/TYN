@@ -1,0 +1,119 @@
+{
+  "status": "PARTIAL",
+  "error": null,
+  "provenance": "live_jira",
+  "elapsed_seconds": 281.047,
+  "provider_error": {
+    "status": 429,
+    "reason": "rate_limit_exceeded",
+    "message": "Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01ky1wn7n0exgaw02f2nfpmv6z` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2914, Requested 5148. Please try again in 464.999999ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+    "retry_after_seconds": 1.0
+  },
+  "model": "groq/openai/gpt-oss-120b",
+  "provider": "groq",
+  "actual_models": [
+    "openai/gpt-oss-120b"
+  ],
+  "response_ids": [
+    "chatcmpl-7b660195-f46b-422f-9cc8-8bf8793d9fc7",
+    "chatcmpl-f2efc2fb-6769-4b69-80a3-50a1d6ec327f",
+    "chatcmpl-533a408f-ec7b-43c7-b54f-083d863a1aa0",
+    "chatcmpl-e6a42ae3-aad5-4a6e-8806-0016e50d6599",
+    "chatcmpl-3fec1a92-9d73-4b06-89ed-6d527eed5134",
+    "chatcmpl-01115ca1-11f0-4b7d-b12d-3bd9370291a4",
+    "chatcmpl-d00a8d2e-c464-4735-9e18-2baafdf1f743",
+    "chatcmpl-6fd554eb-54d8-4606-ada0-6bde007647e5",
+    "chatcmpl-e7644ca0-c05e-4e43-9a7d-c8510d615942",
+    "chatcmpl-fa8d7328-5ad7-4b9b-95a7-a2c2dfb52568",
+    "chatcmpl-4120db6d-b9fb-4c68-8614-ba31f9a09bc3",
+    "chatcmpl-e7b353de-aac8-4e3b-af58-5eb918ea26cb",
+    "chatcmpl-4c9cf186-cb24-416d-bfd3-ca88a05db79d",
+    "chatcmpl-56d5395f-135a-46a5-8ba2-3666e1e32d37",
+    "chatcmpl-5019c392-fd02-48ca-961c-69386b9028b8",
+    "chatcmpl-e743c852-5d64-484e-8d03-5a047d3b437c"
+  ],
+  "usage": {
+    "total_tokens": 47268,
+    "input_tokens": 43202,
+    "output_tokens": 4066
+  },
+  "tool_calls": 16,
+  "model_requests": 17,
+  "model_calls": 16,
+  "tool_validation_recoveries": 0,
+  "responses_with_usage": 16,
+  "tool_errors": 3,
+  "sessions": [
+    {
+      "source_id": "REQ-01",
+      "assessment_status": "COMPLETE",
+      "elapsed_seconds": 144.359
+    },
+    {
+      "source_id": "REQ-02",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 131.672
+    },
+    {
+      "source_id": "REQ-03",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-04",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-05",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-06",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-07",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-08",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-09",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-10",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-11",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-12",
+      "assessment_status": "ERROR",
+      "elapsed_seconds": 0.0
+    }
+  ],
+  "usage_complete": false,
+  "usage_note": "Only provider-returned usage is summed; unavailable requests may have incurred charges.",
+  "jira_http_requests": 15,
+  "trace_sha256": "13e2ae0956c48ffc92a497372ae43adb6eabae1c76bbfde2b5afc11a12119d06",
+  "limits": {
+    "max_tool_calls": 180,
+    "max_seconds": 1800,
+    "max_tokens": 1000000,
+    "max_requirement_turns": 12,
+    "requirement_seconds": 120
+  }
+}

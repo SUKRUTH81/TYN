@@ -1,0 +1,160 @@
+{
+  "schema_version": "2.0",
+  "release": "R2.4",
+  "project": "TEST",
+  "dataset_scope": "tyn-release-assessment-v2",
+  "target": {
+    "release": "R2.4",
+    "commit": "b7a91f2",
+    "prompt": "p7",
+    "environment": "production",
+    "service": "atlas-assistant"
+  },
+  "generated_at": "2026-11-11T10:30:38.600662+00:00",
+  "requirements": [
+    {
+      "source_id": "REQ-01",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: API request failed: HTTP 429; POST /v1beta/interactions",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 14.64
+    },
+    {
+      "source_id": "REQ-02",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: API request failed: HTTP 429; POST /v1beta/interactions",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 17.563
+    },
+    {
+      "source_id": "REQ-03",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: API request failed: HTTP 429; POST /v1beta/interactions",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.453
+    },
+    {
+      "source_id": "REQ-04",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: API request failed: HTTP 429; POST /v1beta/interactions",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.547
+    },
+    {
+      "source_id": "REQ-05",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: API request failed: HTTP 429; POST /v1beta/interactions",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.547
+    },
+    {
+      "source_id": "REQ-06",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: API request failed: HTTP 429; POST /v1beta/interactions",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.64
+    },
+    {
+      "source_id": "REQ-07",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: API request failed: HTTP 429; POST /v1beta/interactions",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 96.625
+    },
+    {
+      "source_id": "REQ-08",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: API request failed: HTTP 429; POST /v1beta/interactions",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.704
+    },
+    {
+      "source_id": "REQ-09",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: API request failed: HTTP 429; POST /v1beta/interactions",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 22.796
+    },
+    {
+      "source_id": "REQ-10",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: API request failed: HTTP 429; POST /v1beta/interactions",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 1.016
+    },
+    {
+      "source_id": "REQ-11",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: API request failed: HTTP 429; POST /v1beta/interactions",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.563
+    },
+    {
+      "source_id": "REQ-12",
+      "mandatory": true,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "assessment_status": "ERROR",
+      "decision_basis": "TOOLING_FAILURE",
+      "explanation": "Investigation incomplete because tooling/model execution failed: RuntimeError: API request failed: HTTP 429; POST /v1beta/interactions",
+      "outstanding": "Rerun this investigation or perform a manual Jira review; this is not a finding of missing product evidence.",
+      "evidence": [],
+      "elapsed_seconds": 0.75
+    }
+  ],
+  "overall_decision": "NEEDS_REVIEW",
+  "assessment_complete": false,
+  "provenance": "live_gemini_offline_jira",
+  "requested_model": "gemini-3.8-flash",
+  "actual_models": [
+    "gemini-3.8-flash"
+  ],
+  "integrity_notes": [
+    {
+      "warning": "Some investigations failed. Overall decision is conditional; never treat this as a completed assessment."
+    }
+  ]
+}

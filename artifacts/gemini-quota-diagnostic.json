@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-11-11T12:04:55.310202+00:00",
+  "configured_model": "gemini-3.8-flash",
+  "endpoint": "https://generativelanguage.googleapis.com/v1beta/interactions",
+  "automatic_retries": 0,
+  "credentials_changed": false,
+  "project_settings_changed": false,
+  "http_status": 429,
+  "currently_reproduced": true,
+  "retry_after_seconds": "71702",
+  "response_content_type": "application/json; charset=UTF-8",
+  "response_body": "{\"error\":{\"message\":\"Rate limit exceeded for model gemini-3.8-flash (limit: 20 requests per day on Free Tier). Please retry in 19h55m2s or upgrade your tier at https://ai.dev/rate-limit.\",\"code\":\"too_many_requests\"}}",
+  "cloud_project_lookup": {
+    "status": "unavailable",
+    "reason": "No authenticated Google Cloud CLI lookup available; an API key alone does not establish project identity."
+  }
+}

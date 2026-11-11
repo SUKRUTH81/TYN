@@ -1,0 +1,88 @@
+Page 
+1
+THE YELLOW NETWORK
+Jira Release Evidence Agent Assessment
+AI Engineer
+Build a tool-using AI agent that determines whether the requirements for a software release are 
+satisfied by evidence recorded in Jira. Choose your own language, framework, model provider and 
+architecture. AI coding tools, including Claude Code and Codex, are allowed.
+The problem
+An engineering team is preparing to release an enterprise AI application. Its requirements, 
+implementation updates, verification results, approvals and defects are recorded in Jira. A ticket 
+marked Done does not necessarily establish that its acceptance criteria have been satisfied. Your 
+agent must investigate the records and produce one evidence-backed release-readiness report.
+What you receive
+The supplied inputs/dataset.json contains 400 fictional tickets and 2,059 comments across several 
+releases. Requirements, verification records, implementation claims, approvals and dependencies are 
+represented as linked records. Not every linked record applies to the target build. The release manifest 
+defines the target release and assessment rules.
+Your task
+1.
+Use a dedicated project in your own Jira Cloud site and import the supplied records, preserving 
+source identifiers, relationships and recorded evidence.
+2.
+Build an application that accepts the Jira project, dataset scope and target release. The dataset 
+scope is the Jira label your importer applies to every imported issue: use the dataset_label value 
+from the dataset (tyn-release-assessment-v2), so the agent only considers records from this import,
+ 
+even if the project contains other tickets.
+3.
+Let the agent identify the target requirements and use tools to inspect relevant tickets, comments 
+and linked evidence.
+4.
+Produce one final report explaining each requirement decision, its evidence and any outstanding 
+verification or clarification.
+Required decisions
+Decision
+Meaning
+PASS
+Applicable evidence establishes that the acceptance criterion is satisfied.
+FAIL
+Applicable evidence establishes a failure or violation.
+INSUFFICIENT_EVIDENCE
+Evidence is missing, inapplicable or genuinely inconclusive.
+The overall decision is BLOCKED if any mandatory requirement fails; NEEDS_REVIEW if none fails 
+but at least one has insufficient evidence; and READY only if every mandatory requirement passes. 
+Missing proof is different from a demonstrated failure.
+Page 
+2
+Evidence and agent behaviour
+During assessment, the agent must gather its evidence from Jira. The supplied JSON is only the import
+ 
+input, not the model's assessment context. Use no external evidence or company systems.
+Evidence must apply to the correct release, commit, service, environment and any required prompt 
+version. Ticket status alone is not proof. Do not invent missing results or approve requirements from 
+unrelated evidence. Resolve supported requirements instead of marking everything unknown.
+Preserve the scenario actor names, roles and event timestamps in the imported record text. Native Jira
+ 
+authors and timestamps belong to the importer and must not be presented as the original fictional 
+actors.
+The model must select evidence-gathering or checking actions through tools. A fixed script that sends 
+the complete dataset JSON to a model does not satisfy this requirement. Keep execution bounded and 
+report tool/model failures honestly.
+What to submit
+
+Working source code and pinned dependencies.
+
+A repeatable importer and clear setup and execution instructions.
+
+One actual generated release-readiness report, including requirement identifiers, decisions, 
+explanations and supporting Jira ticket/comment references.
+
+An investigation trace showing tool calls.
+
+Measured execution time and model/token usage where available.
+
+A short explanation of design choices, known limits and how you used AI assistance.
+Keep account credentials out of the submission.
+How we evaluate
+We assess decision correctness and evidence applicability, investigation of relevant linked records, tool
+ 
+use and context management, reproducibility, failure handling and your explanation.
+Submission
+
+Submit by replying to the email that sent you this brief, with a link to a Git repository (public, or 
+private and shared with the reviewer named in that email) or a zip file.
+
+Questions: reply to the same email. We will answer clarifying questions but will not review work in 
+progress.

@@ -1,0 +1,32 @@
+{
+  "status": "FAILED",
+  "error": "API request failed: HTTP 429; POST /v1beta/interactions",
+  "provenance": "live_jira",
+  "elapsed_seconds": 0.906,
+  "provider_error": {
+    "status": 429,
+    "reason": null,
+    "retry_after_seconds": 72010.0
+  },
+  "model": "gemini-3.8-flash",
+  "provider": "gemini",
+  "actual_models": [],
+  "response_ids": [],
+  "usage": {
+    "total_tokens": 0
+  },
+  "tool_calls": 0,
+  "model_requests": 1,
+  "sessions": [],
+  "usage_complete": false,
+  "usage_note": "Only provider-returned usage is summed; unavailable requests may have incurred charges.",
+  "jira_http_requests": 0,
+  "trace_sha256": "5ccd25cf35f8b9f9936d61cb2707eb6cc813cbd86c11a18692c2f4dc53306ea3",
+  "limits": {
+    "max_tool_calls": 180,
+    "max_seconds": 1800,
+    "max_tokens": 1000000,
+    "max_requirement_turns": 12,
+    "requirement_seconds": 120
+  }
+}

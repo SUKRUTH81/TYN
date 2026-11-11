@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-11-11T12:55:44.581570+00:00",
+  "model": "gemini-3.8-flash",
+  "credentials_changed": false,
+  "proxy_variables_present": [],
+  "summary": {
+    "classification": "generation_not_tested",
+    "confirmed_cause": null,
+    "explanation": "Metadata does not establish generation eligibility, billing status or usable quota."
+  },
+  "results": [
+    {
+      "operation": "model_metadata",
+      "http_status": 200,
+      "body": "{\n  \"name\": \"models/gemini-3.8-flash\",\n  \"version\": \"3.0\",\n  \"displayName\": \"Gemini 3.8 Flash\",\n  \"description\": \"Gemini 3.8 Flash\",\n  \"inputTokenLimit\": 1048576,\n  \"outputTokenLimit\": 65536,\n  \"supportedGenerationMethods\": [\n    \"generateContent\",\n    \"countTokens\",\n    \"createCachedContent\",\n    \"batchGenerateContent\"\n  ],\n  \"temperature\": 1,\n  \"topP\": 0.95,\n  \"topK\": 64,\n  \"maxTemperature\": 2,\n  \"thinking\": true\n}\n",
+      "elapsed_seconds": 0.391
+    }
+  ]
+}

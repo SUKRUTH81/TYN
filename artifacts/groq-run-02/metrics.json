@@ -1,0 +1,45 @@
+{
+  "status": "FAILED",
+  "error": "API request failed: HTTP 400; POST /openai/v1/chat/completions; Tool call validation failed: tool call validation failed: attempted to call tool 'get_linked_issues' which was not in request.tools",
+  "provenance": "live_jira",
+  "elapsed_seconds": 16.344,
+  "provider_error": {
+    "status": 400,
+    "reason": "tool_use_failed",
+    "message": "Tool call validation failed: tool call validation failed: attempted to call tool 'get_linked_issues' which was not in request.tools",
+    "retry_after_seconds": null
+  },
+  "model": "groq/openai/gpt-oss-120b",
+  "provider": "groq",
+  "actual_models": [
+    "openai/gpt-oss-120b"
+  ],
+  "response_ids": [
+    "chatcmpl-dc249084-70b0-4a89-a4fb-1e63f3311d80",
+    "chatcmpl-2c977dbb-9be8-448b-a835-48d526a196ec",
+    "chatcmpl-f53ec700-7a4d-47c3-a6eb-2824709a1e39",
+    "chatcmpl-ec1206b4-fc14-40c5-8da8-feac7074c974"
+  ],
+  "usage": {
+    "total_tokens": 6912,
+    "input_tokens": 6453,
+    "output_tokens": 459
+  },
+  "tool_calls": 4,
+  "model_requests": 5,
+  "model_calls": 4,
+  "responses_with_usage": 4,
+  "tool_errors": 1,
+  "sessions": [],
+  "usage_complete": false,
+  "usage_note": "Only provider-returned usage is summed; unavailable requests may have incurred charges.",
+  "jira_http_requests": 5,
+  "trace_sha256": "b170ceb33d278ba2bc46f0dd5615552e66798d45de33552c2762c9e6dba76ceb",
+  "limits": {
+    "max_tool_calls": 180,
+    "max_seconds": 1800,
+    "max_tokens": 1000000,
+    "max_requirement_turns": 12,
+    "requirement_seconds": 120
+  }
+}

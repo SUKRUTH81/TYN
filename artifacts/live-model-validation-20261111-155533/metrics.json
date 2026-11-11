@@ -1,0 +1,23 @@
+{
+  "status": "FAILED",
+  "error": "The read operation timed out",
+  "provenance": "live_gemini_offline_jira",
+  "elapsed_seconds": 45.14,
+  "model": "gemini-3.8-flash",
+  "provider": "gemini",
+  "actual_models": [],
+  "response_ids": [],
+  "usage": {
+    "total_tokens": 0
+  },
+  "tool_calls": 0,
+  "sessions": [],
+  "trace_sha256": "85fa107fe66daef3ad51d8b49b91ed9bf122cbbdf9e2f78415ef05285c0a9120",
+  "limits": {
+    "max_tool_calls": 120,
+    "max_seconds": 480,
+    "max_tokens": 350000,
+    "max_requirement_turns": 12,
+    "requirement_seconds": 120
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "checked_at_utc": "2026-11-11T13:25:53.954890+00:00",
+  "model": "gemini-3.8-flash",
+  "credentials_changed": false,
+  "proxy_variables_present": [],
+  "summary": {
+    "classification": "generation_response_missing",
+    "confirmed_cause": null,
+    "explanation": "No complete HTTP response. A timeout alone cannot distinguish network/proxy delay from provider delay."
+  },
+  "results": [
+    {
+      "operation": "model_metadata",
+      "http_status": 200,
+      "body": "{\n  \"name\": \"models/gemini-3.8-flash\",\n  \"version\": \"3.0\",\n  \"displayName\": \"Gemini 3.8 Flash\",\n  \"description\": \"Gemini 3.8 Flash\",\n  \"inputTokenLimit\": 1048576,\n  \"outputTokenLimit\": 65536,\n  \"supportedGenerationMethods\": [\n    \"generateContent\",\n    \"countTokens\",\n    \"createCachedContent\",\n    \"batchGenerateContent\"\n  ],\n  \"temperature\": 1,\n  \"topP\": 0.95,\n  \"topK\": 64,\n  \"maxTemperature\": 2,\n  \"thinking\": true\n}\n",
+      "elapsed_seconds": 0.296
+    },
+    {
+      "operation": "count_tokens",
+      "http_status": 200,
+      "body": "{\n  \"totalTokens\": 1,\n  \"promptTokensDetails\": [\n    {\n      \"modality\": \"TEXT\",\n      \"tokenCount\": 1\n    }\n  ]\n}\n",
+      "elapsed_seconds": 0.235
+    },
+    {
+      "operation": "plain_text_generation",
+      "http_status": null,
+      "error_type": "TimeoutError",
+      "error": "The read operation timed out",
+      "elapsed_seconds": 15.109
+    },
+    {
+      "operation": "plain_text_generation_curl",
+      "http_status": null,
+      "transport_metrics": {
+        "time_namelookup": 0.152914,
+        "time_connect": 0.381219,
+        "time_appconnect": 0.432711,
+        "time_pretransfer": 0.43283,
+        "time_starttransfer": 0.0,
+        "time_total": 15.002633,
+        "size_upload": 145,
+        "size_download": 0,
+        "http_connect": 0,
+        "ssl_verify_result": 0
+      },
+      "last_observed_stage": "tls_complete_request_uploaded_waiting_for_response",
+      "response_complete": false,
+      "body": "",
+      "curl_exit_code": 28,
+      "transport_error": "curl: (28) Operation timed out after 15001 milliseconds with 0 bytes received\n",
+      "elapsed_seconds": 15.094
+    }
+  ]
+}

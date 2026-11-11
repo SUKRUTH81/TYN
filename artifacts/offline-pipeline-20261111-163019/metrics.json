@@ -1,0 +1,148 @@
+{
+  "status": "COMPLETED",
+  "error": null,
+  "provenance": "offline_test_double",
+  "elapsed_seconds": 0.25,
+  "provider_error": null,
+  "model": "scripted-test-double",
+  "provider": "openai",
+  "actual_models": [
+    "scripted-test-double"
+  ],
+  "response_ids": [
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline",
+    "scripted-offline"
+  ],
+  "usage": {
+    "total_tokens": 0
+  },
+  "tool_calls": 55,
+  "model_requests": 55,
+  "model_calls": 55,
+  "sessions": [
+    {
+      "source_id": "REQ-01",
+      "assessment_status": "COMPLETE",
+      "elapsed_seconds": 0.015
+    },
+    {
+      "source_id": "REQ-02",
+      "assessment_status": "COMPLETE",
+      "elapsed_seconds": 0.016
+    },
+    {
+      "source_id": "REQ-03",
+      "assessment_status": "COMPLETE",
+      "elapsed_seconds": 0.015
+    },
+    {
+      "source_id": "REQ-04",
+      "assessment_status": "COMPLETE",
+      "elapsed_seconds": 0.016
+    },
+    {
+      "source_id": "REQ-05",
+      "assessment_status": "COMPLETE",
+      "elapsed_seconds": 0.031
+    },
+    {
+      "source_id": "REQ-06",
+      "assessment_status": "COMPLETE",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-07",
+      "assessment_status": "COMPLETE",
+      "elapsed_seconds": 0.016
+    },
+    {
+      "source_id": "REQ-08",
+      "assessment_status": "COMPLETE",
+      "elapsed_seconds": 0.031
+    },
+    {
+      "source_id": "REQ-09",
+      "assessment_status": "COMPLETE",
+      "elapsed_seconds": 0.0
+    },
+    {
+      "source_id": "REQ-10",
+      "assessment_status": "COMPLETE",
+      "elapsed_seconds": 0.016
+    },
+    {
+      "source_id": "REQ-11",
+      "assessment_status": "COMPLETE",
+      "elapsed_seconds": 0.015
+    },
+    {
+      "source_id": "REQ-12",
+      "assessment_status": "COMPLETE",
+      "elapsed_seconds": 0.032
+    }
+  ],
+  "usage_complete": false,
+  "usage_note": "Only provider-returned usage is summed; unavailable requests may have incurred charges.",
+  "jira_http_requests": null,
+  "trace_sha256": "39a07cf94d64e26defbd6911bbb5e192588eb9c7e27a90b5987bf222b566d6d9",
+  "limits": {
+    "max_tool_calls": 100,
+    "max_seconds": 900,
+    "max_tokens": 1000000,
+    "max_requirement_turns": 12,
+    "requirement_seconds": 120
+  }
+}

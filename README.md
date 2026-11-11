@@ -83,7 +83,6 @@ Start-Process artifacts\groq-run-03\report.html
 .\venv\Scripts\python.exe -m release_agent audit artifacts/live-run
 ```
 
-Alternatively run `powershell -ExecutionPolicy Bypass -File .\run_assessment.ps1`; use `-SkipImport` only after a verified import. The script stops on an unsuccessful step. It does not send email or publish anything.
 
 All Jira operations accept `--project` and `--scope`. The dataset scope for this brief must be `tyn-release-assessment-v2`. Import/verification accept `--dataset` and `--workers 1..8`; issue/link type names can be overridden on import. `doctor --jira-only` and `doctor --model-only` isolate configuration problems.
 
